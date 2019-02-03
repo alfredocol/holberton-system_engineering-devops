@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -pc1 | grep -v / | tail
+ls -tp1 | grep -v / | head
