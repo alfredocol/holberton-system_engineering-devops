@@ -1,0 +1,2 @@
+#!/bin/bash
+ls -laR1 | sort -f | grep *.gif | rev | cut -d. -f2 | rev
